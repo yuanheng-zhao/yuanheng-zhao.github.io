@@ -6,7 +6,7 @@ subtitle: Software Engineer | Compiler Engineer
 
 profile:
   align: right
-  image: _about_portrait.jpg
+  image: my_portrait.jpg
   image_circular: false # crops the image to make it circular
   caption: Taken @ Olympic National Park
 
