@@ -2,96 +2,83 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yuanheng Zhao
+    - name: English Name
+      value: Jonathan Zhao
+    - name: Email
+      value: jonathan.zhaoyh@gmail.com
     - name: Languages
-      value: English, German
+      value: English, Chinese, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. Computer Science
+      institution: University of Chicago
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 3.6/4.0"
+    - title: B.S. Applied and Computational Mathematical Science
+      institution: University of Washington
+      year: 2017-2021
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.8/4.0"
+        - "Honors: Annual Dean’s List (2017 - 2020)"
 
 - title: Experience
   type: time_table
   contents:
+    - title: Software Engineer (AI Compiler, MLIR/LLVM)
+      institution: SambaNova Systems Inc
+      year: 07/2022 - 03/2023
+      description:
+        - Interacted and worked with compiler teams at varying layers on the intermediate representations (IRs) using MLIR/LLVM, 
+          to ensure reliable dataflow of a custom ML compiler for compiling PyTorch/TensorFlow models running on customized chips.
+        - Migrated an intermediate compilation process towards an in-memory code generation, enhancing the performance by about 35% for the stage with strengthened security.
+        - Improved and optimized analysis and transform passes used for calculating data layout constraints and modifying IRs, 
+          facilitating the compilation success of about 10 various models like GPT-3 and BERT.
+        - Added legalization and unit tests into various stages, enhancing stability and robustness of the compiler.
+    
+    - title: Research Assistant (Data Collection & Data Analysis)
+      institution: Make4all Lab, University of Washington
+      year: 10/2019 - 10/2020
+      description:
+        - Worked on research projects at Make4all Lab, University of Washington.
+        - Analyzed survey and biometric data collected for the UW EXP Study, a student health and wellness study.
+        - Developed codebooks to accurately describe data collected in various phases from 2018-2020 for use in the study, supporting with data analysis and interpretation and drawing meaningful insights from the data.
+        - Modified and refined data structures of config files used for 100+ questionnaire items and aggregated scoring items.
+        - Collected and prepared data through Scrapy for usage of the analysis.
+
+    - title: Research Assistant (Swarm Robotics Optimization)
+      institution: Guangdong Digital Signal and Image Processing Lab, Shantou University
+      year: 09/2019
+      description:
+        - Revised and optimized a control parameters estimation process which regulates swarm aggregation behaviors through Genetic Programming (Python DEAP), 
+          which significantly improved the performance of the simulation by 40%.
+
     - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+      institution: Shanghai Shudan Information Technology (AFA Finance)
+      year: 06/2019 - 08/2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+      - Worked on a Web Scraping Project which collects and prepares data used for social sentiment analysis and prediction.
+      - Designed and developed web crawlers using Selenium, Beautiful Soup, and XPath, which efficiently extracted over 5000 data items daily from scraping various dynamically rendered websites.
+      - Developed features bypassing anti-scraping technologies (e.g., dynamic user agents, proxies) for a Scrapy-based distributed web crawler. Successfully increased the number of websites it’s able to gather data from about 150 to over 200.
+      - Implemented a dynamic proxy pool using Flask and Redis and connected it to Scrapy downloader middleware.
+      - Improved unit test set coverage from 45% to 85% in a codebase of over 18000 lines of production code.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Compiler Infrastructure
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - MLIR, LLVM, TVM
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Deep Learning, Transfer Learning, LLM
+    - title: Data Engineering
+    - title: Backend
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Reading, Dancing, Cooking (dishes from all around the world), Violin, Xiao (Chinese vertical end-blown flute), Video Games
